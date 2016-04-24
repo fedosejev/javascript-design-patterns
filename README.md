@@ -2,7 +2,7 @@
 
 + [Creational Design Patterns](#creational-design-patterns)
  + [Constructor Pattern](#constructor-pattern)
- + [Module Pattern](#module-pattern)
+ + [Revealing Module Pattern](#revealing-module-pattern)
 
 ## Creational Design Patterns
 
