@@ -98,3 +98,6 @@ modelS.stop();
 ```
 
 + [Example](https://repl.it/CJDz)
+
+### Module Pattern
+
