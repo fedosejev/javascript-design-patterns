@@ -33,3 +33,4 @@ modelS.stop();
 
 #### Drawbacks
 
++ `start` and `stop` is created for each object, i.e. `modelS`, `modelX` and `model3` have their own copies of `start` and `stop` functions.
