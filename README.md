@@ -99,5 +99,29 @@ modelS.stop();
 
 + [Example](https://repl.it/CJDz)
 
-### Module Pattern
+### Revealing Module Pattern
 
+```js
+var TeslaService = (function () {
+	
+	function change() {
+		console.log('Charging your Tesla');
+	}
+	
+	function updateSoftware() {
+		console.log('Updating software on your Tesla');
+	}
+	
+	function replaceBattery() {
+		console.log('Replacing battery on your Tesla');
+	}
+	
+	return {
+		charge: charge,
+		updateSoftware: updateSoftware,
+		replaceBattery: replaceBattery
+	};
+})();
+```
+
++ [Example](https://repl.it/CJEE)
