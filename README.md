@@ -63,3 +63,34 @@ modelS.stop();
 ```
 
 + [Example](https://repl.it/CJDm)
+
+#### ECMAScript 2015 version
+
+```js
+class Tesla {
+  constructor(model, color) {
+    this.model = model;
+    this.color = color;
+    this.isStarted = false;
+  }
+  
+  start() {
+    this.isStarted = true;
+    console.log('Started ' + this.model);
+  }
+  
+  stop() {
+    this.isStarted = false;
+    console.log('Stopped ' + this.model);
+  }
+}
+
+var modelS = new Tesla('Model S', 'white');
+var modelX = new Tesla('Model X', 'black');
+var model3 = new Tesla('Model 3', 'red');
+
+modelS.start();
+modelS.stop();
+```
+
++ [Example](https://repl.it/CJDz)
