@@ -1,7 +1,7 @@
 # Examples of design patterns in JavaScript
 
 + [Creational Design Patterns](#creational-design-patterns)
- + [Constructor Pattern]()
+ + [Constructor Pattern](#constructor-pattern)
  + [Module Pattern]()
 
 ## Creational Design Patterns
